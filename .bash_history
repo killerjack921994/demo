@@ -94,3 +94,90 @@ shut down
 main
 sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
 wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
+cd dome
+cd demo
+rails s -b 0.0.0.0
+rails generate model Comment commenter:string body:text article:references
+rake db:migrate
+rails s -b 0.0.0.0
+rails generate controller Comments
+rails s -b 0.0.0.0
+cd
+git checkout master
+git checkout -b log-in-log-out
+cd demo
+rails generate controller Session new
+rails s -b 0.0.0.0
+rake rou
+ails generate controller Session new
+rails s -b 0.0.0.0
+cd
+sudo apt-get update
+sdo apt-get upgrade
+sudo apt-get upgrade
+git init
+git add .
+git push origin master
+git commit -a -m "demo"
+git push origin master
+ccd demo
+cd demo
+rails s -b 0.0.0.0
+cd
+rails new bootstrap
+cd bootstrap
+rails generate scaffold Todo title:string notes:text
+rake db:migrate
+rake db:seek
+rake db:seed
+rails s -b 0.0.0.0
+bundle install
+rails s -b 0.0.0.0
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+bundle install
+rails s -b 0.0.0.0
+sudo apt-get update
+sudo apt-get upgrade
+gem 'bootstrap-sass', '~> 3.2.0'
+bundle install
+rails s -b 0.0.0.0
+cd
+cd demo
+rails s -b 0.0.0.0
+cd
+rails new basic_website
+cd basic_website
+ls
+subline .
+bundle install
+rails g controller Pages home about contact
+rails s -b 0.0.0.0
+cd
+cd basic_website_bootstrap
+rails s -b 0.0.0.0
+cd
+git init
+git add .
+git commit -a -m "Bootstrap"
+git push origin master
+git commit -am "Bootstrap"
+git commit -a -m "bootstrap"
+git checkout master
+git commit -am "Bootstrap"
+git push origin master
+git init
+git add .
+git commit -a -m "bootstrap"
+git push origin master
+git init
+git add -A
+git commit -a -m "Destroy_bootstrap"
+git push origin master
+ifconfig
+rails server
+echo "hello world"
+rails server
+rails new bootstrap
+cd bootstrap
+bundle install
